@@ -51,7 +51,7 @@
                                             <button type="button" @click="verVenta(venta.id)" class="btn btn-success btn-sm">
                                             <i class="icon-eye"></i>
                                             </button> &nbsp;
-                                            <button type="button" @click="pdfVenta(venta.id)" class="btn btn-success btn-sm">
+                                            <button type="button" @click="pdfVenta(venta.id)" class="btn btn-info btn-sm">
                                             <i class="icon-doc"></i>
                                             </button>
                                             <template v-if="venta.estado=='Registrado'">
